@@ -73,7 +73,7 @@ a:hover {
 /* Animation */
 
 .animate-container {
-   -webkit-animation: animate_bg 6s;
+  -webkit-animation: animate_bg 6s;
   animation: animate_bg 6s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
@@ -106,6 +106,7 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   padding: 1rem 80px;
+  z-index: 10;
 }
 
 .navbar-brand {
@@ -172,8 +173,102 @@ a:hover {
   font-weight: bold;
 }
 
+.borderBot {
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+
 /* Portfolio */
 
-/* Work */
+#portfolio {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  padding-bottom: 10rem;
+}
 
+.section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1.5rem;
+  border-top: 2px solid #000;
+  font-size: 3.5rem;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+.project-wrapper:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  transition-duration: 0.5s;
+}
+
+.spacing {
+  padding-top: 3rem;
+}
+
+.featured-spacer {
+  margin-bottom: 5rem;
+}
+
+.project-title {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  font-weight: bold;
+  margin-bottom: 0;
+  letter-spacing: 0.35;
+  color: #000;
+}
+
+.project-description {
+  font-size: 1rem;
+  line-height: 1.25;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
+  color: #000;
+}
+
+.project-side {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.project-featured {
+  background: url('images/project3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  border-radius: 10px;
+}
+
+.project1 {
+  background: url('images/project1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project2 {
+  background: url('images/project2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project4 {
+  background: url('images/project4.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project5 {
+  background: url('images/project5.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Work */
+#work {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
 /* Interests */
