@@ -47,7 +47,7 @@ table {
   border-spacing: 0;
 }
 
-/* Initial Structure */
+/* Structure */
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
@@ -81,16 +81,20 @@ a:hover {
 
 @keyframes animate_bg {
   0% {background: #9999CC;}
-  25% {background: #FFFFCC;}
-  75% {background: #99cc99;}
-  100% {background: #cccc99;}
+  20% {background: #FFFFCC;}
+  40% {background: #D4FAF5;}
+  60% {background: #F1F9D9;}
+  80% {background: #F6E3F8;}
+  100% {background: #9999CC;}
 }
 
 @-webkit-keyframes animate_bg {
   0% {background: #9999CC;}
-  25% {background: #FFFFCC;}
-  75% {background: #99cc99;}
-  100% {background: #cccc99;}
+  20% {background: #FFFFCC;}
+  40% {background: #D4FAF5;}
+  60% {background: #F1F9D9;}
+  80% {background: #F6E3F8;}
+  100% {background: #9999CC;}
 }
 
 /* Navbar */
@@ -137,6 +141,8 @@ a:hover {
 
 .hero-container {
   height: 500px;
+  padding-top: 12.5rem;
+  padding-bottom: 10rem;
 }
 
 .heading {
@@ -151,6 +157,20 @@ a:hover {
 }
 
 /* About */
+
+.about-container {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.about-wrapper {
+  max-width: 1280px;
+}
+
+.about-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
 
 /* Portfolio */
 
