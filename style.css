@@ -267,14 +267,6 @@ a:hover {
   background-repeat: no-repeat;
 }
 
-/* Education 
-
-.heading-l {
-  font-size: 4rem;
-  font-weight: bold;
-  letter-spacing: -0.06em;
-}
-*/
 
 /* About */
 
@@ -296,6 +288,15 @@ a:hover {
   font-weight: bold;
   box-shadow: inset 0 -3px 0 0 rgb(0 0 0 / 12%);
 }
+
+/* Education  */
+
+.heading-l {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: -0.06em;
+}
+
 
 
 
